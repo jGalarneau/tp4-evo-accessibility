@@ -1,0 +1,58 @@
+body,ul, ol, li, p, h1, h2{
+	margin:0;
+	padding:0;}
+
+body{
+	background-color:#000033;
+	margin-top:10px;
+
+}
+ul, ol{
+	list-style-type:none;}
+
+/*------------DEBUT REGLES FORMULAIRE-------------*/
+
+#form1{
+	background-color:#336699;
+	width:422px;
+	margin:0 auto;
+	padding:30px;
+	}
+ 
+
+
+ol li{
+	border:solid 1px white;
+	
+	background-color:rgba(255,255,255,0.2);
+	padding:10px;
+	margin-bottom:5px;
+	width:400px;
+	
+}
+
+ol li>label{
+	float:left;
+	width:110px;
+	text-align:right;
+	padding-right:20px;
+	margin-top:4px;
+}
+
+input[type="image"]{
+	color:#FFF;
+	display:block;
+	width:150px;
+	margin:0 auto;
+	padding:15px;
+	background-color:rgba(255,255,255,0.2);
+	
+	font-family:"Times New Roman", Times, serif;
+	font-size:35px;
+	
+}
+#contenu{
+	width:960px;
+	background-color:#56739A;
+ 
+}

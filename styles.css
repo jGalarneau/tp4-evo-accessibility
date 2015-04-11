@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#ddd;
+	background-image:url(images/home_page_noir.jpg);
+	}
+
+	
+#conteneur{
+	width:960px;
+	margin:0 auto;
+}
+
+h1,h2{
+	color:#69f;
+	}
+
+#droite, #article, #piedcontenu, #menu ul{
+	background-color:white;
+	}
+
+#menu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:960px;
+	height:30px;
+	background-color:#07F;
+	}
+
+#menu li{float:left;}
+
+.cellules{
+	display:block;
+	width:159px;
+	text-decoration:none;
+	text-align:center;
+	border-right:solid 1px #999;
+}
+/* ------------------------------------------------------------------------------- */
+.entete{
+	background-color:#ddd;
+}
+table
+{
+    border-collapse: collapse;
+	margin: 20px;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+	height: 35px;
+
+}
+ 
+img {
+padding:10px;
+}
+a {
+  text-decoration: underline;
+  color: #844;
+}
+a:visited {
+  color: #844;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #844;
+  background: #07F;
+}
+a:focus{
+outline:0;
+}
