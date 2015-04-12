@@ -1,105 +1,98 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 <title>Bibliothèque Moncalm</title>
-<link href="styles.css" type="text/css" rel="stylesheet" />
-<link href="styles-formulaire.css" type="text/css" rel="stylesheet" />
+<link href="css/styles.css" type="text/css" rel="stylesheet" />
+<link href="css/styles-formulaire.css" type="text/css" rel="stylesheet" />
 
 
 </head>
 
 <body>
-	<div id ="conteneur">
-		<div id="header">
+	<section id="conteneur">
+		<header>
         	<h1>Bibliothèque Moncalm</h1>
 			<form action="" method="get">
 				<label for="login-id">Login : </label>
 				<input name="login" id="login-id" type="text">
 				<input type="submit" value="" />
 			</form>
-		</div>
-
-		<div id="menu">
+			
+		<nav role="navigation">
         	<ul>
-				<li><a href="biblio_moncalm.html" class="cellules">Accueil</a></li>
-				<li><a href="horaire.html"  class="cellules">Horaire</a></li>
-				<li><a href="activites.html"  class="cellules">Activités</a></li>
-				<li><a href="#4"  class="cellules">FAQ</a></li>
-				<li><a href="#5"  class="cellules">Mon dossier</a></li>
-				<li><a href="nous_joindre.html"  class="cellules cellule_d">Nous joindre</a></li>
+				<li><a href="biblio_moncalm.html" tabindex="1" class="visuallyhidden focusable" >Accueil</a></li>
+				<li><a href="horaire.html" tabindex="2" class="visuallyhidden focusable" >Horaire</a></li>
+				<li><a href="activites.html" tabindex="3" class="visuallyhidden focusable">Activités</a></li>
+				<li><a href="#4" tabindex="4" class="visuallyhidden focusable">FAQ</a></li>
+				<li><a href="#5" tabindex="5" class="visuallyhidden focusable" >Mon dossier</a></li>
+				<li><a href="nous_joindre.html" tabindex="6" class="visuallyhidden focusable">Nous joindre</a></li>
+				<li><a href="#6" tabindex="7" class="visuallyhidden focusable">Accessibilité</a></li>
 			</ul>
-		</div><!--Fin de menu-->
+		</nav><!--Fin de menu-->
+		</header>
 
-		<div id="contenu">
+		<section id="contenu">
    
-	<form id="form1" action="" method="" enctype="" name="">
-        	<ol>
-            	<li><label for="name">Nom : </label>
-            		<input type="text" name="name" id="name" placeholder="Nom et prénom" required="true" />
-               
-            
-            <p>
-            	     <label>
-                    	<input type="radio" name="civil" id="mr"/>Mr</label>
-                    <label>
-                    	<input type="radio" name="civil" id="me"/>Mme</label>     
-                                     
-                </li>
-            <p>
-              
-            	<li><label for="email">Courriel</label>
-            		<input type="email" name="email" id="emai" placeholder="exemple@donaime.com" required="true" />
-                </li>
-                
-               <li><label for="tel">Téléphone : </label>
-            		<input type="tel" name="tel" id="tel" />
-                </li>
-                
-                <li><label for="adresse">Adresse : </label>
-            		<input type="text" name="adresse" id="adresse" />
-                </li>
-                
-                <li><label for="cp">Code postal : </label>
-            		<input type="text" name="cp" id="cp" />
-                </li>
-                
-                <li><label for="ville">Ville : </label>
-            		<input type="text" name="ville" id="ville" />
-                </li>
-            </ol>
-             <ol>
-            	<li>
-                <p>
-                	<label>
-                    	<input type="checkbox" name="news" id="news"/>S'inscrire à la news letter</label>               
-                </p>
-                </li>                               
-           </ol>   
- 
-        <ol>
-        	<li>
-            	<label for="renseignements">Renseignements complémentaires</label>
-                <textarea id="renseignements"  name="renseignements" rows="5" required ></textarea>
-            
-            </li>
-        </ol>
-		<input type="image" name="photo" src="images/inscrire.png"></input>
-        <!--<input type="submit" value="Inscrire" /> -->
+			<form id="form1" action="" method="" enctype="" name="">
+						<ol>
+							<li>
+								<label for="name">Nom : </label>
+								<input type="text" name="name" id="name" placeholder="Nom et prénom" required="true" tabindex="8" />
+						<p>
+								 <label>
+									<input type="radio" name="civil" id="mr" tabindex="9"/>Mr</label>
+								<label>
+									<input type="radio" name="civil" id="me" tabindex="10"/>Mme</label>     			 
+							</li>
+						</p>
+						  
+							<li>
+								<label for="email">Courriel</label>
+								<input type="email" name="email" id="emai" placeholder="exemple@donaime.com" required="true" tabindex="11"/>
+							</li>
+							
+						   <li>
+								<label for="tel">Téléphone : </label>
+								<input type="tel" name="tel" id="tel"tabindex="12"/>
+							</li>
+							
+							<li>
+								<label for="adresse">Adresse : </label>
+								<input type="text" name="adresse" id="adresse" tabindex="13"/>
+							</li>
+							
+							<li>
+								<label for="cp">Code postal : </label>
+								<input type="text" name="cp" id="cp" tabindex="14"/>
+							</li>
+							
+							<li>
+								<label for="ville">Ville : </label>
+								<input type="text" name="ville" id="ville" tabindex="15"/>
+							</li>
+							<li>
+							<p>
+								<label>
+									<input type="checkbox" name="news" id="news"/>S'inscrire à la news letter</label>               
+							</p>
+							</li>
+							
+							<li>
+							<label for="renseignements">Renseignements complémentaires</label>
+							<textarea id="renseignements"  name="renseignements" rows="5" required tabindex="1" tabindex="16"></textarea>
+							</li>
+						</ol>            
 
+					<!--<input type="submit" value="Inscrire" /> -->
+					<input type="image" name="photo" src="images/inscrire.png" tabindex="17"></input>
+			</form>
 
-	</form>
+		</section><!--Fin de contenu-->
 
-		</div><!--Fin de contenu-->
-
-		<div id="droite">
-         
-        </div><!--Fin de droite-->
-
-		<br class="annule" />
-		<div id="footer">
+		<footer>
         Tous droits réservés - Bibliothèque Montcalm
-        </div><!--Fin de footer-->
-	</div><!--Fin de conteneur-->
+        </footer><!--Fin de footer-->
+	</section><!--Fin de conteneur-->
 </body>
 </html>

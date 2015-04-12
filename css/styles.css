@@ -3,7 +3,7 @@
 
 body{
 	background-color:#ddd;
-	background-image:url(images/home_page_noir.jpg);
+	background-image:url(../images/home_page_noir.jpg);
 	}
 
 	
@@ -20,7 +20,7 @@ h1,h2{
 	background-color:white;
 	}
 
-#menu ul{
+nav ul{
 	list-style-type:none;
 	margin:0;
 	padding:0;
@@ -29,11 +29,11 @@ h1,h2{
 	background-color:#07F;
 	}
 
-#menu li{float:left;}
+nav li{float:left;}
 
 .cellules{
 	display:block;
-	width:159px;
+	width:130px;
 	text-decoration:none;
 	text-align:center;
 	border-right:solid 1px #999;
@@ -72,3 +72,28 @@ a:hover, a:focus, a:active {
 a:focus{
 outline:0;
 }
+hr{
+	width:400px; 
+	color:firebrick; 
+	background-color:firebrick; 
+	height:1px;
+}
+#theadTableF{ width=100;}
+.theadTable{ width=140;}
+
+.visuallyhidden.focusable:active, .focusable#ariala:active, .focusable#arialp:active,
+.visuallyhidden.focusable:focus,
+.focusable#ariala:focus,
+.focusable#arialp:focus{
+	border: 1px solid white;
+
+ }
+ 
+ .visuallyhidden{
+	display:block;
+	width:130px;
+	text-decoration:none;
+	text-align:center;
+	border-right:solid 1px #999;
+ }
+  

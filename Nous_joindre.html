@@ -1,34 +1,36 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html lang="fr" xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 <title>Bibliothèque Moncalm</title>
-<link href="styles.css" type="text/css" rel="stylesheet">
+<link href="css/styles.css" type="text/css" rel="stylesheet">
 
 </head>
 
 <body>
-	<div id="conteneur">
-		<div id="header">
+	<section id="conteneur">
+		<header>
         	<h1>Bibliothèque Moncalm</h1>
 			<form action="" method="get">
 				<label for="login-id">Login : </label>
 				<input name="login" id="login-id" type="text">
 				<input value="" type="submit">
 			</form>
-		</div>
-
-		<div id="menu">
-         	<ul>
-				<li><a href="biblio_moncalm.html" class="cellules">Accueil</a></li>
-				<li><a href="horaire.html" class="cellules">Horaire</a></li>
-				<li><a href="activites.html" class="cellules">Activitès</a></li>
-				<li><a href="#4" class="cellules">FAQ</a></li>
-				<li><a href="#5" class="cellules">Mon dossier</a></li>
-				<li><a href="nous_joindre.html" class="cellules cellule_d">Nous joindre</a></li>
+			
+		<nav role="navigation">
+        	<ul>
+				<li><a href="biblio_moncalm.html" tabindex="1" class="visuallyhidden focusable" >Accueil</a></li>
+				<li><a href="horaire.html" tabindex="2" class="visuallyhidden focusable" >Horaire</a></li>
+				<li><a href="activites.html" tabindex="3" class="visuallyhidden focusable">Activités</a></li>
+				<li><a href="#4" tabindex="4" class="visuallyhidden focusable">FAQ</a></li>
+				<li><a href="#5" tabindex="5" class="visuallyhidden focusable" >Mon dossier</a></li>
+				<li><a href="nous_joindre.html" tabindex="6" class="visuallyhidden focusable">Nous joindre</a></li>
+				<li><a href="#6" tabindex="7" class="visuallyhidden focusable">Accessibilité</a></li>
 			</ul>
-		</div><!--Fin de menu-->
+		</nav><!--Fin de menu-->
+		</header>
 
-		<div id="contenu">
+
+		<section id="contenu">
         
 			<div id="article">
 				<h2>Nous joindre</h2> 
@@ -43,21 +45,13 @@
  
 			</div><!--Fin-->
 
-			<div id="piedcontenu">
- 
 			</div>
 
-		</div><!--Fin de contenu-->
-
-		<div id="droite">
-        
-        </div><!--Fin de droite-->
-
-		<br class="annule">
-		<div id="footer">
+		</section><!--Fin de contenu-->
+		<footer>
         Tous droits réservés - Bibliothèque Montcalm
-        </div><!--Fin de footer-->
-	</div><!--Fin de conteneur-->
+        </footer><!--Fin de footer-->
+	</section><!--Fin de conteneur-->
 
 
 </body></html>
