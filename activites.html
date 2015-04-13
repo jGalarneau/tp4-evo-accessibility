@@ -3,28 +3,27 @@
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 <title>Bibliothèque Moncalm</title>
 <link href="css/styles.css" type="text/css" rel="stylesheet">
-
+<script type="text/javascript" src="javascript/pageCourante.js"></script>
 </head>
 
-<body>
+<body onload= "currentPage()">
 	<div id="conteneur">
 		<header>
-        	<h1>Bibliothèque Moncalm</h1>
 			<form action="" method="get">
 				<label for="login-id">Login : </label>
 				<input name="login" id="login-id" type="text">
 				<input value="" type="submit">
 			</form>
 			
-		<nav role="navigation">
+		<nav role="navigation" id="principalNav">
         	<ul>
-				<li><a href="biblio_moncalm.html" tabindex="1" class="visuallyhidden focusable" >Accueil</a></li>
-				<li><a href="horaire.html" tabindex="2" class="visuallyhidden focusable" >Horaire</a></li>
-				<li><a href="activites.html" tabindex="3" class="visuallyhidden focusable">Activités</a></li>
-				<li><a href="#4" tabindex="4" class="visuallyhidden focusable">FAQ</a></li>
-				<li><a href="#5" tabindex="5" class="visuallyhidden focusable" >Mon dossier</a></li>
-				<li><a href="nous_joindre.html" tabindex="6" class="visuallyhidden focusable">Nous joindre</a></li>
-				<li><a href="#6" tabindex="7" class="visuallyhidden focusable">Accessibilité</a></li>
+				<li id="Accueil"><a href="biblio_moncalm.html" tabindex="1" class="visuallyhidden focusable" >Accueil</a></li>
+				<li id="Horaire"><a href="horaire.html" tabindex="2" class="visuallyhidden focusable" >Horaire</a></li>
+				<li id="Activite"><a href="activites.html" tabindex="3" class="visuallyhidden focusable">Activite</a></li>
+				<li id="FAQ"><a href="#4" tabindex="4" class="visuallyhidden focusable">FAQ</a></li>
+				<li id="Dossier"><a href="#5" tabindex="5" class="visuallyhidden focusable" >Mon dossier</a></li>
+				<li id="Nous Joindre"><a href="nous_joindre.html" tabindex="6" class="visuallyhidden focusable">Nous joindre</a></li>
+				<li id="Accessibilite"><a href="#6" tabindex="7" class="visuallyhidden focusable">Accessibilité</a></li>
 			</ul>
 		</nav><!--Fin de menu-->
 		</header>
@@ -32,7 +31,7 @@
         
 			<div id="article">
 			
-				 
+				 <h1 class="titre" id="titre">Activite</h1>
 				<h2> Formation en informatique et bureautique </h2>
 				<h3> Formation en informatique </h3>
 				<p>La  bibliothèque vous offre la possibilité de vous familiariser avec l'informatique, un puissant outil de travail, de loisir et de communication. En effet, des ateliers sont offerts dans notre bibliothèque. Cette initiation est individuelle.</p>

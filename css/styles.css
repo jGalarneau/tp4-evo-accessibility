@@ -96,4 +96,11 @@ hr{
 	text-align:center;
 	border-right:solid 1px #999;
  }
-  
+ .titre{
+	text-align:center;
+ }
+ 
+ .PrincipalActive{
+	background-color: white;
+		height:30px;
+ }

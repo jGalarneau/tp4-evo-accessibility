@@ -4,13 +4,12 @@
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 <title>Bibliothèque Moncalm</title>
 <link href="css/styles.css" type="text/css" rel="stylesheet" />
-
+<script type="text/javascript" src="javascript/pageCourante.js"></script>
 </head>
 
-<body>
-	<div id ="conteneur">
+<body onload= "currentPage()">
+	<div id="conteneur">
 		<header>
-        	<h1>Bibliothèque Moncalm</h1>
 			<form action="" method="get">
 				<label for="login-id">Login : </label>
 				<input name="login" id="login-id" type="text">
@@ -19,20 +18,20 @@
 			
 		<nav role="navigation">
         	<ul>
-				<li><a href="biblio_moncalm.html" tabindex="1" class="visuallyhidden focusable" >Accueil</a></li>
-				<li><a href="horaire.html" tabindex="2" class="visuallyhidden focusable" >Horaire</a></li>
-				<li><a href="activites.html" tabindex="3" class="visuallyhidden focusable">Activités</a></li>
-				<li><a href="#4" tabindex="4" class="visuallyhidden focusable">FAQ</a></li>
-				<li><a href="#5" tabindex="5" class="visuallyhidden focusable" >Mon dossier</a></li>
-				<li><a href="nous_joindre.html" tabindex="6" class="visuallyhidden focusable">Nous joindre</a></li>
-				<li><a href="#6" tabindex="7" class="visuallyhidden focusable">Accessibilité</a></li>
+				<li id="Accueil"><a href="biblio_moncalm.html" tabindex="1" class="visuallyhidden focusable" >Accueil</a></li>
+				<li id="Horaire"><a href="horaire.html" tabindex="2" class="visuallyhidden focusable" >Horaire</a></li>
+				<li id="Activite"><a href="activites.html" tabindex="3" class="visuallyhidden focusable">Activités</a></li>
+				<li id="FAQ"><a href="#4" tabindex="4" class="visuallyhidden focusable">FAQ</a></li>
+				<li id="Dossier"><a href="#5" tabindex="5" class="visuallyhidden focusable" >Mon dossier</a></li>
+				<li id="Nous joindre"><a href="nous_joindre.html" tabindex="6" class="visuallyhidden focusable">Nous joindre</a></li>
+				<li id="Accessibilite"><a href="#6" tabindex="7" class="visuallyhidden focusable">Accessibilité</a></li>
 			</ul>
 		</nav><!--Fin de menu-->
 		</header>
 
 		<section id="contenu">
-        
 			<div id="article">
+				<h1  class="titre" id="titre">Accueil</h1>
 				<h3>Votre bibliothèque</h3>
 				<img alt="image de la bibliothèque" src="images/biblio10.jpg" align="right" />
 				
@@ -58,7 +57,7 @@
 				<ul>
 					<li> Invitation à la soirée des Amis donnant le premier choix lors du solde annuel de livres </li>
 					<li> Réduction de 15% sur les achats de livres aux libraires : …</li>
-					<li> Invitation à l’inauguration du <a href="http://www.silq.ca" > Salon du livre de Québec </a> </li>
+					<li> Invitation à l’inauguration du <a href="http://www.silq.ca" alt="Ce lien ouvrira dans un nouvelle onglet"> Salon du livre de Québec </a> </li>
 					<li> Invitation à des activités littéraires réservées exclusivement aux membres </li>
 					<li> Abonnement au bulletin Info-ABQ </li>
 					<li> Droit de vote à l’assemblée annuelle </li>
