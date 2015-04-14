@@ -1,6 +1,6 @@
 function currentPage()
 {
-	if(document.getElementById('titre') === "Nous joindre"){
+	if(document.getElementById('titre').textContent === "Nous joindre"){
 		document.getElementById('Nous_joindre').setAttribute("class", "PrincipalActive");
 	}
 	else{

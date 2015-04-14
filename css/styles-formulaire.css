@@ -3,12 +3,14 @@ body,ul, ol, li, p, h1, h2{
 	padding:0;}
 
 body{
-	background-color:#000033;
+	background-color:#cebca4;
 	margin-top:10px;
 
 }
 ul, ol{
-	list-style-type:none;}
+	list-style-type:none;
+	border: solid 1px white;
+	margin-bottom:10px;}
 
 /*------------DEBUT REGLES FORMULAIRE-------------*/
 
@@ -20,23 +22,18 @@ ul, ol{
 	}
  
 
-
 ol li{
-	border:solid 1px white;
-	
+
 	background-color:rgba(255,255,255,0.2);
-	padding:10px;
-	margin-bottom:5px;
-	width:400px;
+	width:420px;
 	
 }
 
 ol li>label{
-	float:left;
-	width:110px;
-	text-align:right;
-	padding-right:20px;
-	margin-top:4px;
+	display: block;
+	width: 150px;
+	float: left;
+	margin-left:10px;
 }
 
 input[type="image"]{
@@ -53,6 +50,9 @@ input[type="image"]{
 }
 #contenu{
 	width:960px;
-	background-color:#56739A;
+	background-color:white;
  
+}
+#genre, #btnInscription{
+	text-align:center;
 }
