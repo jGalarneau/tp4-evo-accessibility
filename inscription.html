@@ -2,15 +2,16 @@
 <html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-<title>Bibliothèque Moncalm</title>
+<title>inscription - Bibliothèque Moncalm</title>
 <link href="css/styles.css" type="text/css" rel="stylesheet" />
 <link href="css/styles-formulaire.css" type="text/css" rel="stylesheet" />
 
 
 </head>
 
-<body onload= "currentPage()">
+<body onload="currentPage()">
 	<section id="conteneur">
+	<h1>Bibliothèque Moncalm</h1>
 		<header>
         	<h1 class="titrePage">Bibliothèque Moncalm</h1>
 			<form action="" method="get">
@@ -35,57 +36,57 @@
 		<section id="contenu">
    
 			<form id="form1" action="" method="" enctype="" name="">
-						<ol>
-							<li>
-								<label for="name">Nom : </label>
-								<input type="text" name="name" id="name" placeholder="Nom et prénom" required="true" tabindex="8" />
+				<ol>
+					<li>
+						<label for="name">Nom : </label>
+						<input type="text" name="name" id="name" placeholder="Nom et prénom" required="true" tabindex="8" />
 						<p>
-								 <label>
-									<input type="radio" name="civil" id="mr" tabindex="9"/>Mr</label>
-								<label>
-									<input type="radio" name="civil" id="me" tabindex="10"/>Mme</label>     			 
-							</li>
+							<label>
+							<input type="radio" name="civil" id="mr" tabindex="9"/>Mr</label>
+							<label>
+							<input type="radio" name="civil" id="mme" tabindex="10"/>Mme</label>     			 
 						</p>
-						  
-							<li>
-								<label for="email">Courriel</label>
-								<input type="email" name="email" id="emai" placeholder="exemple@donaime.com" required="true" tabindex="11"/>
-							</li>
-							
-						   <li>
-								<label for="tel">Téléphone : </label>
-								<input type="tel" name="tel" id="tel"tabindex="12"/>
-							</li>
-							
-							<li>
-								<label for="adresse">Adresse : </label>
-								<input type="text" name="adresse" id="adresse" tabindex="13"/>
-							</li>
-							
-							<li>
-								<label for="cp">Code postal : </label>
-								<input type="text" name="cp" id="cp" tabindex="14"/>
-							</li>
-							
-							<li>
-								<label for="ville">Ville : </label>
-								<input type="text" name="ville" id="ville" tabindex="15"/>
-							</li>
-							<li>
-							<p>
-								<label>
-									<input type="checkbox" name="news" id="news" tabindex="16"/>S'inscrire à la news letter</label>               
-							</p>
-							</li>
-							
-							<li>
-							<label for="renseignements">Renseignements complémentaires</label>
-							<textarea id="renseignements"  name="renseignements" rows="5" required tabindex="17"></textarea>
-							</li>
-						</ol>            
+					</li>
+					<li>
+						<label for="email">Courriel</label>
+						<input type="email" name="email" id="email" placeholder="exemple@domaime.com" required="true" tabindex="11"/>
+					</li>
 
-					<!--<input type="submit" value="Inscrire" /> -->
-					<input type="image" name="photo" src="images/inscrire.png" tabindex="18"></input>
+					<li>
+						<label for="tel">Téléphone : </label>
+						<input type="tel" name="tel" id="tel"tabindex="12"/>
+					</li>
+
+					<li>
+						<label for="adresse">Adresse : </label>
+						<input type="text" name="adresse" id="adresse" tabindex="13"/>
+					</li>
+
+					<li>
+						<label for="cp">Code postal : </label>
+						<input type="text" name="cp" id="cp" tabindex="14"/>
+					</li>
+
+					<li>
+						<label for="ville">Ville : </label>
+						<input type="text" name="ville" id="ville" tabindex="15"/>
+					</li>
+
+					<li>
+						<p>	
+							<input type="checkbox" name="news" id="news" tabindex="16"/>
+							<label for="news">S'inscrire à la news letter</label>               
+						</p>
+					</li>
+
+					<li>
+						<label for="renseignements">Renseignements complémentaires</label>
+						<textarea id="renseignements"  name="renseignements" rows="5" required tabindex="17"></textarea>
+					</li>
+				</ol>            
+
+				<!--<input type="submit" value="Inscrire" /> -->
+				<input type="image" name="photo" src="images/inscrire.png" alt="Button s'inscrire" tabindex="18"></input>
 			</form>
 
 		</section><!--Fin de contenu-->

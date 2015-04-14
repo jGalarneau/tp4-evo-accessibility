@@ -1,91 +1,92 @@
 <!DOCTYPE html >
 <html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-<title>Bibliothèque Moncalm</title>
-<link href="css/styles.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="javascript/pageCourante.js"></script>
-</head>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>Horaire - Bibliothèque Moncalm</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="javascript/pageCourante.js"></script>
+  </head>
 
-<body onload= "currentPage()">
-	<section id="conteneur">
-		<header>
-			<form action="" method="get">
-				<label for="login-id">Login : </label>
-				<input name="login" id="login-id" type="text">
-				<input type="submit" value="" />
-			</form>
-			
-		<nav  role="navigation">
-        	<ul>
-				<li id="Accueil"><a href="biblio_moncalm.html" tabindex="1" class="visuallyhidden focusable" >Accueil</a></li>
-				<li id="Horaire"><a href="horaire.html" tabindex="2" class="visuallyhidden focusable" >Horaire</a></li>
-				<li id="Activite"><a href="activites.html" tabindex="3" class="visuallyhidden focusable">Activités</a></li>
-				<li id="FAQ"><a href="#4" tabindex="4" class="visuallyhidden focusable">FAQ</a></li>
-				<li id="Dossier"><a href="#5" tabindex="5" class="visuallyhidden focusable" >Mon dossier</a></li>
-				<li id="Nous joindre"><a href="nous_joindre.html" tabindex="6" class="visuallyhidden focusable">Nous joindre</a></li>
-				<li id="Accessibilite"><a href="#6" tabindex="7" class="visuallyhidden focusable">Accessibilité</a></li>
-			</ul>
-		</nav><!--Fin de menu-->
-		</header>
+  <body onload="currentPage()">
+    <section id="conteneur">
+      <header>
+      <h1>Bibliothèque Moncalm</h1>
 
-		<div id="contenu">
-        
-			<div id="article">
-			
-			<h1 class="titre" id="titre">Horaire</h1>
-			 <table class=tabDonnees cellSpacing=0 cellPadding=0>
-				 <thead scope="colgroup">
-					 <tr class="entete">
-						<th scope="col" id="theadTableF"></th>
-						<th scope="col" class="theadTable">Horaire régulier</th>
-						<th scope="col" class="theadTable">Horaire d'été</th></tr>
-					<tr class="entete">
-						<th scope="col">Jours</th>
-						<th scope="col">Adultes/enfants</th>
-						<th scope="col">Adultes/enfants</th></tr>
-				 </thead>
-				 <tbody scope="colgroup">
-				  <tr>
-					<td scope="col">Lundi</td>
-					<td scope="col">12 h - 18 h </td>
-					<td scope="col">12 h - 18 h</td></tr>
-				  <tr>
-					<td scope="col">Mardi</td>
-					<td scope="col">13 h - 21 h</td>
-					<td scope="col">13 h - 21 h</td></tr>
-				  <tr>
-					<td scope="col">Mercredi</td>
-					<td scope="col">13 h - 21 h</td>
-					<td scope="col">13 h - 21 h</td></tr>
-				  <tr>
-					<td scope="col">Jeudi</td>
-					<td scope="col">10 h - 21 h</td>
-					<td scope="col">10 h - 21 h</td></tr>
-				  <tr>
-					<td scope="col">Vendredi</td>
-					<td scope="col">10 h - 18 h</td>
-					<td scope="col">10 h - 18 h</td></tr>
-				  <tr>
-					<td scope="col">Samedi</td>
-					<td scope="col">10 h - 17 h</td>
-					<td scope="col">10 h - 17 h</td></tr>
-				  <tr>
-					<td scope="col">Dimanche</td>
-					<td scope="col">12 h - 17 h</td>
-					<td scope="col">12 h - 17 h</td></tr>
-				</tbody>
-			</table>
-				
-				</br> </br>
-						
-			</div><!--Fin-->
+        <form action="" method="get">
+          <label for="login-id">Login : </label>
+          <input name="login" id="login-id" type="text">
+          <input type="submit" value="" />
+        </form>
 
-	</section><!--Fin de contenu-->
+        <nav  role="navigation">
+          <ul>
+            <li id="Accueil"><a href="biblio_moncalm.html" tabindex="1" class="visuallyhidden focusable" >Accueil</a></li>
+            <li id="Horaire"><a href="horaire.html" tabindex="2" class="visuallyhidden focusable" >Horaire</a></li>
+            <li id="Activite"><a href="activites.html" tabindex="3" class="visuallyhidden focusable">Activités</a></li>
+            <li id="FAQ"><a href="#4" tabindex="4" class="visuallyhidden focusable">FAQ</a></li>
+            <li id="Dossier"><a href="#5" tabindex="5" class="visuallyhidden focusable" >Mon dossier</a></li>
+            <li id="Nous_joindre"><a href="nous_joindre.html" tabindex="6" class="visuallyhidden focusable">Nous joindre</a></li>
+            <li id="Accessibilite"><a href="#6" tabindex="7" class="visuallyhidden focusable">Accessibilité</a></li>
+          </ul>
+        </nav><!--Fin de menu-->
+      </header>
 
-		<footer>
-        Tous droits réservés - Bibliothèque Montcalm
-        </footer><!--Fin de footer-->
-	</div><!--Fin de conteneur-->
-</body>
+      <section id="contenu">    
+        <div id="article">		
+          <h2 class="titre" id="titre">Horaire</h2>
+          <table class="tabDonnees" summary="Ce tableau montre l'horaire régulier et l'horaire d'été de chaques jours de la semaine pour les adultes et les enfants">
+            <caption>Horaire régulier et d'été de la bibliothèque</caption>
+            <thead>
+              <tr class="entete">
+                <!--<th scope="col" id="theadTableF"></th>-->
+                <th id="day">Jours</th>
+                <th id="heureReg">Horaire régulier</th>
+                <th id="heureEte">Horaire d'été</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td headers="day">Lundi</td>
+                <td headers="heureReg">12 h - 18 h </td>
+                <td headers="heureEte">12 h - 18 h</td>
+              </tr>
+              <tr>
+                <td headers="day">Mardi</td>
+                <td headers="heureReg">13 h - 21 h</td>
+                <td headers="heureEte">13 h - 21 h</td>
+              </tr>
+              <tr>
+                <td headers="day">Mercredi</td>
+                <td headers="heureReg">13 h - 21 h</td>
+                <td headers="heureEte">13 h - 21 h</td>
+              </tr>
+              <tr>
+                <td headers="day">Jeudi</td>
+                <td headers="heureReg">10 h - 21 h</td>
+                <td headers="heureEte">10 h - 21 h</td>
+              </tr>
+              <tr>
+                <td headers="day">Vendredi</td>
+                <td headers="heureReg">10 h - 18 h</td>
+                <td headers="heureEte">10 h - 18 h</td>
+              </tr>
+              <tr>
+                <td headers="day">Samedi</td>
+                <td headers="heureReg">10 h - 17 h</td>
+                <td headers="heureEte">10 h - 17 h</td>
+              </tr>
+              <tr>
+                <td headers="day">Dimanche</td>
+                <td headers="heureReg">12 h - 17 h</td>
+                <td headers="heureEte">12 h - 17 h</td>
+              </tr>
+            </tbody>
+          </table>				
+        </div><!--Fin-->
+      </section><!--Fin de contenu-->
+      <footer>
+      Tous droits réservés - Bibliothèque Montcalm
+      </footer><!--Fin de footer-->
+    </section>
+  </body>
 </html>

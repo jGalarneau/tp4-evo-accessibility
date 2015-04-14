@@ -2,8 +2,7 @@
 /* CSS Document */
 
 body{
-	background-color:#ddd;
-	background-image:url(../images/home_page_noir.jpg);
+	background-color:#cebca4;
 	}
 
 	
@@ -13,7 +12,7 @@ body{
 }
 
 h1,h2{
-	color:#69f;
+	color:#000;
 	}
 
 #droite, #article, #piedcontenu, #menu ul{
@@ -25,8 +24,8 @@ nav ul{
 	margin:0;
 	padding:0;
 	width:960px;
-	height:30px;
-	background-color:#07F;
+	height:20px;
+	background-color:#99F;
 	}
 
 nav li{float:left;}
@@ -59,14 +58,14 @@ padding:10px;
 }
 a {
   text-decoration: underline;
-  color: #844;
+  color: #000;
 }
 a:visited {
   color: #844;
 }
 a:hover, a:focus, a:active {
   text-decoration: none;
-  color: #844;
+  color: #700;
   background: #07F;
 }
 a:focus{
@@ -78,8 +77,12 @@ hr{
 	background-color:firebrick; 
 	height:1px;
 }
-#theadTableF{ width=100;}
-.theadTable{ width=140;}
+#theadTableF{ 
+	width:100px;
+}
+.theadTable{ 
+	width:140px;
+}
 
 .visuallyhidden.focusable:active, .focusable#ariala:active, .focusable#arialp:active,
 .visuallyhidden.focusable:focus,
@@ -102,5 +105,5 @@ hr{
  
  .PrincipalActive{
 	background-color: white;
-		height:30px;
+		height:20px;
  }
