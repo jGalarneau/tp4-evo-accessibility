@@ -27,11 +27,15 @@ nav ul{
 	margin:0;
 	padding:0;
 	width:960px;
+	color:black;
 	height:20px;
 	background-color:#99F;
 	}
 
-nav li{float:left;}
+
+nav li{
+	float:left;
+	}
 
 .cellules{
 	display:block;
@@ -68,7 +72,7 @@ a:visited {
 }
 a:hover, a:focus, a:active {
   text-decoration: none;
-  color: #700;
+  color: black;
   background: #07F;
 }
 a:focus{
@@ -119,3 +123,10 @@ hr{
 	height:100px;
 	
 }
+#id{
+	padding:0px;
+	margin:0px;
+}
+#all , #idCours{float:right;}
+#mariage{float:left;}
+
