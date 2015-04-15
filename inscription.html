@@ -12,18 +12,19 @@
 <body onload="currentPage()">
 	<section id="conteneur">
 	 <header>
+	 <a href="#contenu" class="passeContenu" tabindex="1" ><span>Passer au contenu principal</span></a>
 			<div id="enteteHeader">
 			<h1 class="titrePrincipale">Bibliothèque Moncalm</h1>
 				<div id="form" >
 					<form action="" method="get">
-						<label for="login-id">Login : </label>
+						<label for="login-id">Identifiant : </label>
 						<input name="login" id="login-id" type="text">
 						<input value="connexion" type="submit">
 					</form>
 					<a href="inscription.html"> inscription </a>
 				</div>
 			</div>
-			<a href="#contenu" class="passeContenu" tabindex="1" >Passer au contenu principal</a>
+			
 			<nav role="navigation" id="principalNav">
 				<ul>
 					<li id="Accueil"><a href="biblio_moncalm.html" tabindex="2" class="visuallyhidden focusable" >Accueil</a></li>
@@ -40,7 +41,8 @@
 		<section id="contenu">
    
 			<form id="form1" action="" method="post" name="form1">
-				<p> Informations personnelles </p>
+			<fieldset>
+				<legend> Informations personnelles </legend>
 				<ol>
 						<li>
 							<label for="name">Nom : </label>
@@ -79,30 +81,31 @@
 							<label for="ville">Ville : </label>
 							<input type="text" name="ville" id="ville" tabindex="15"/>
 						</li>
-					
-					</ol>
-					
-					<p>inscription</p>
+						</ol>
+					</fieldset>
+					<fieldset>
+					<legend>Abonnez-vous a l'infolettre</legend>
 					<ol>
 						<li>
 							<p>	
 								<input type="checkbox" name="news" id="news" tabindex="16"/>
-								<label for="news">S'inscrire à la news letter</label>               
+								<label for="news">S'inscrire à l'infolettre</label>               
 							</p>
 						</li>
 					</ol>
-					
-					<p>commentaire</p>
-					<ol>
-						<li>
-							<label for="renseignements">Renseignements complémentaires</label>
-							<textarea id="renseignements"  name="renseignements" rows="5" required tabindex="17"></textarea>
-						</li>
-					</ol>
-				        
+					</fieldset>
+					<fieldset>
+					<legend>commentaire</legend>
+						<ol>
+							<li>
+								<label for="renseignements">Renseignements complémentaires</label>
+								<textarea id="renseignements"  name="renseignements" rows="5" required tabindex="17"></textarea>
+							</li>
+						</ol>
+				    </field
 
 				<!--<input type="submit" value="Inscrire" /> -->
-				<input id="btnInscription" type="submit" name="photo" title="Button s'inscrire" tabindex="18" value="Inscription"/>
+				<input id="btnInscription" type="submit" name="photo" title="Bouton s'inscrire" tabindex="18" value="Inscription"/>
 			</form>
 
 		</section><!--Fin de contenu-->

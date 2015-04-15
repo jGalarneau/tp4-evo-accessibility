@@ -12,6 +12,7 @@ body{
 }
 .titrePrincipale{
 	float:left;
+	font-size: 30px;
 }
 h1,h2{
 	color:#000;
@@ -28,7 +29,7 @@ nav ul{
 	padding:0;
 	width:960px;
 	color:black;
-	height:20px;
+	height:40px;
 	background-color:#99F;
 	}
 
@@ -63,19 +64,21 @@ td, th /* Mettre une bordure sur les td ET les th */
 img {
 padding:10px;
 }
-a {
+nav a {
+	margin: auto;
   text-decoration: underline;
   color: #000;
+  height: 40px;
 }
-a:visited {
+nav a:visited {
   color: #844;
 }
-a:hover, a:focus, a:active {
+nav li:hover, nav li:focus, nav li:active {
   text-decoration: none;
   color: black;
   background: #07F;
 }
-a:focus{
+nav a:focus{
 outline:0;
 }
 hr{
@@ -112,7 +115,7 @@ hr{
  
  .PrincipalActive{
 	background-color: white;
-		height:20px;
+		height:40px;
  }
  #form{
 		border: 1px solid white;
@@ -130,3 +133,10 @@ hr{
 #all , #idCours{float:right;}
 #mariage{float:left;}
 
+.passeContenu span
+{
+	display: none;
+}
+.passeContenu:focus span{
+	display: inline;
+}
