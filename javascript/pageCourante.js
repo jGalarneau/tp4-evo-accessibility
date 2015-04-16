@@ -11,5 +11,5 @@ function currentPage()
 
 		liens = document.getElementsByClassName("PrincipalActive")[0];
 		var l = liens.getElementsByTagName("a")[0];
-		  l.setAttribute("alt", "vous êtes ici");
+		  l.setAttribute("title", "vous êtes ici");
 }
